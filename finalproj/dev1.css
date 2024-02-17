@@ -1,0 +1,317 @@
+/*-- Name: AnuradhaS 
+StudentId: W0949779
+Date: 12/06/2023*/
+
+/* Style for Wrapper used on all pages */
+#wrapper {
+padding-left: 3em;
+padding-right:3em;
+margin-bottom:50px;} 
+
+
+main {width:100%;}
+
+form {  float:right; 
+        padding-bottom: 1em;
+}
+/* controls h2 */
+h2  {color:#363636;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 2em;}
+
+/* controls h3 over hero images on home page and about page */
+h3 {font-family:'Times New Roman', Times, serif;
+    color:#ffffff;
+    margin-left:50px;
+    margin-top:100px;
+    margin-right:100px;
+}  
+
+/* Font styles for */
+h4 {font-size:15px;
+    color:#FFFFFF;}
+
+/* Font styles for page title "Lotus Graden" */
+h1 {background-color:#363636; 
+    color:#ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+    line-height:100%;
+    padding-left: 1em ;
+    padding-right: 1em;
+    padding-top:0.3em;
+    height :100px;
+    margin-bottom:0px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+/* text over an element only when hovering */
+.text:hover {opacity: 1;}
+
+/* Adds logo image on about page */  
+#logo {float:right;}
+
+/*Hero Image on menu page*/
+#hero {background-image: url(ricecropped.jpg); 
+    background-size:80%;
+    background-repeat:no-repeat;
+    width:1860px;
+     height:600px;
+     font-size:120%;
+    margin-top: 0;
+    }
+
+/*Hero Image on about page*/
+#hero2 {background-image: url(burgerbar.jpg); 
+    background-size:80%;
+    background-repeat:no-repeat;
+     width:1880px;
+     height:480px;
+    font-size:120%;
+     margin-top: 0;}
+
+* { box-sizing: border-box;}
+
+/* Add a black background color to the top navigation */
+.topnav {background-color:rgb(61, 61, 61);
+    overflow: hidden;}
+  
+  /* Style the links inside the navigation bar */
+.topnav a {float: left;
+    color: #ffffff;
+ 
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 20px;}
+
+/* style properties for "Table title" on Menu page */
+caption {font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {background-color: #ffffff;
+    color: rgb(37, 37, 37);}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {background-color: #f83838;
+    color: white;}
+
+/* Adds a submitting "Order now" Button styles*/
+.myButton {
+    color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+    font-weight: 800;
+	padding:7px 35px;
+	text-decoration:none;
+	box-shadow: 10px 10px 10px #3f3e3e;
+	background-color:#ec1e17;
+	border-radius:9px; ;
+	border:1px solid #5c0e06;
+	display:inline-block;
+	cursor:pointer;
+    }
+/* Changes color of submitting "Order now" Button when hovering*/	
+.myButton:hover {
+    background-color:rgb(164, 12, 12);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#info { margin-left: 10px;
+        margin-right:1200px;
+        float:left;}
+
+
+ /* Add text over hero image */
+.text {width:800px;   
+      position:absolute;
+      display:flex;
+      justify-content:center;
+      align-items:end;
+      flex-direction:column;
+      opacity: 0;
+      transition: 0.9s;}  
+
+/* adds styling to paragraph */
+p   {font-size:20px;
+    color:#615f5f;}
+
+/* Adds styling properties to the body */
+body {background-color:#ffffff;
+    background-size: 100%;
+    margin: 0px;
+    min-height:1000px;}
+
+.boxx {margin-top:800px;}
+
+/* 6 floating picture cards styling on menu page  */
+* {box-sizing:border-box;}
+
+#container1 {width:1000px;
+float:left;}
+
+.container {width:100%;
+           margin: 100px auto;
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+     }
+.box {width:450px;
+      margin:20px;
+      float:left;
+      padding: 20px;
+      border-color: #fffefe;
+      box-shadow: 10px 10px 10px #727171;
+       }
+  
+.box img {display:block;
+      width: 100%; 
+      border-radius:1px;}
+
+/* Changes/enlarges size of picture when hovering */
+.box:hover {transform:scale(1.3);}
+
+.row::after {content:"";
+      display: table;
+      clear:both;}
+
+
+/* style for two columns in main body */
+.twocolumn {width:50% ;
+            float:left;
+            padding-left:70px;
+            padding-right:70px;
+            padding-top:5px;
+            padding-bottom: 20px;;
+            text-align: left;
+        }
+
+/* style for table */
+.menutable {font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:60%;
+    background-color: #fcd6d6;
+    box-shadow: 0px 10px 30px 5px #848484;
+   color:#656161;
+    }
+
+/* style division which holds "order now"button */
+.order {width:60%;
+        padding-right:5%;
+        margin-left: 500px;
+        }
+
+/* style for "th" in table */
+th {background-color: #4a4a4a;
+    height:50px;
+    letter-spacing: .1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    color:#FFFFFF ;}
+
+/* style for "td" in table" */    
+td { font-size:medium;
+padding-left:.8em;
+padding-right: 0.8em;
+padding-top: .5em;
+padding-bottom:.3em;}
+
+th td {
+    text-align: center;
+    border: 1px solid #808080;}
+
+/* Adds alternate coloring to the table rows */  
+ .menutable tr:nth-child(even) { background-color:#ffffff;}
+
+/* main footer style */  
+.footer {width:95%;
+    height:270px;;
+    background-color:#393636;
+    color:#ffffff;
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    padding-top:10px;
+    padding-right:50px;
+    padding-left:50px;
+  }
+  
+  .footer a {text-decoration:none;}
+  .footer a:link {color:#fafafa;}  
+
+/* First column formats in footer */  
+.foot1 {
+            width:33%;
+            flex-direction: column;
+            padding:50px;
+             margin-right:4rem;
+             display:flex;
+            justify-content: center;
+      
+          
+            }
+/* Second column formats in footer */  
+.foot2 {
+             width:33%;
+            flex-direction: column;
+            padding:50px;
+            margin-right:50px;
+            display:flex;
+            justify-content: center;
+}
+/* Third column formats in footer */  
+.foot3 {
+        width:30%;
+        flex-direction: column;
+        padding:50px;
+        margin-right:50px;
+        display:flex;
+        justify-content: center;
+   }
+                
+/* Changes color of footer links */  
+.footer a:hover {color:#ec1e17;
+}
+
+/*Form Controls */
+form {margin-right:100px ;}
+
+label {float:left;
+    display:block;
+    width:15em;
+    padding-right: 5em;}
+/*text area */
+input, textarea {display:block;
+                 margin-bottom:1em;
+                 }
+/*"My submit button" positioning */                 
+#mySubmit { margin-left: 10em;}
+
+
+/*Floats the video controld to right */
+
+video {float: right;
+    margin:2em;}
+
+.contactform {float:right;
+width:450px;}
+
+
+
+
+
+
+
+
+
+
+     
+    
