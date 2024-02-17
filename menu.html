@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--AnuradhaSW0949779Date11/19/2023-->
+<html lang="en">
+<head><title>CISW327 online Development Project #2</title>
+    <meta charset ="utf-8">
+    <link href="dev1.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+ 
+<header><h2>CISW327 online - 8th 8wk Fall 2023- AnuradhaS </h2>
+    <!--Adds a shopping cart button-->
+   
+    <form method="post" action="http://webdevbasics.net/cart.html">
+       <input type="submit" value="Cart">
+   </form>
+
+        <h1>LOTUS GARDEN</h1>  
+      <hr>
+        
+        <!--Adds a navigation bar below hero image-->  
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">Our History</a>
+            <a href="resume.html">About us</a>
+        </div><hr>
+
+<!--Adds six floating pictures below navigation-->
+<div id= "container">
+    <wrapper id="wrap2">
+            <div class= "box"><img src= "vegburger.JPG" alt="burger"  width="550" height="300"></div>
+
+            <div class= "box"><img src= "sushi.jpg" alt="sushi"  width="505" height="300"></div>
+
+            <div class= "box"><img src= "masalaenchilada.jpg" alt="masalaenchilada" width="550" height="300"></div>
+
+            <div class= "box"><img src= "rice4.JPG" alt="rice4" width="550" height="300"></div>
+
+            <div class= "box"><img src= "rice3.JPG" alt="rice3" width="550" height="300"></div>
+
+            <div class= "box"><img src= "chickentikka2.jpg" alt="chickentikka2" width="550" height="300"></div>
+    </wrapper>
+</div>
+</header>
+
+ 
+<!--Main section begins-->  
+<main>
+    <div class="boxx">
+             <!--Adds a menu table-->     
+            <table class="menutable">
+                    <caption>Our Menu</caption><br><br> 
+                      <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                        <th>Order</th>
+                     </tr>
+                     <tr>
+                        <td>Samosas</td>
+                        <td>10</td>
+                        <td>The samosas are a fried or baked pastry with a savory filling, such as spiced potatoes, 
+                            onions, peas, lentils, and minced meat (lamb, beef or chicken)</td>
+                        <td>$10.50</td>
+                        <td>
+                            <!--Adds a spinner style input button for adding number of portions needed-->  
+                            <label for ="portion"></label>
+                            <input type="number" name="portion" id="portion" min="1" max="14">
+                        </td>
+                        
+                     </tr>
+                     <tr>
+                        <td>Aalo Tikki</td>
+                        <td>10</td>
+                        <td>Aloo Tikki is a popular North Indian snack of crispy potato patties. A basic Aloo Tikki 
+                            recipe has potatoes, spices, herbs and breadcrumbs.</td>
+                        <td>$10.50</td>
+                        <td>
+                            <label for ="portion"></label>
+                            <input type="number" name="portion" id="portion" min="1" max="14">
+                        </td>
+                      </tr>
+                       <tr>
+                        <td>Butter Chicken</td>
+                        <td> 32 oz</td>
+                        <td>A popular Indian dish of grilled chicken simmered in a smooth, silky and creamy onion tomato
+                             and cashew gravy.</td>
+                        <td>$15.50</td>
+                        <td>
+                            <label for ="portion"></label>
+                            <input type="number" name="portion" id="portion" min="1" max="14">
+                        </td>
+                        <tr>
+                        <td>Malai Kofta 32 oz</td>
+                        <td> 32 oz</td>
+                        <td>Malai kofta is an Indian dish of potato paneer balls served with a flavorful, creamy and 
+                            delicious curry</td>
+                        <td>$14.50</td>
+                        <td>
+                            <label for ="portion"></label>
+                            <input type="number" name="portion" id="portion" min="1" max="14">
+                        </td>
+                        <tr>
+                        <td>Veg Biryani</td>
+                        <td> 48 oz</td>
+                        <td> A delicious rice dish prepared with scrumptious spices like saffron and cumin and further
+                             layered with spiced veggies</td>
+                        <td>$17.50</td>
+                        <td>
+                            <label for ="portion"></label>
+                                <input type="number" name="portion" id="portion" min="1" max="14">
+                        </td>
+                         <tr>
+                            <td>Chicken Biryani</td>
+                            <td> 48 oz</td>
+                            <td>A delicious rice dish prepared with scrumptious spices like saffron and cumin 
+                                and further layered with marinaded chicken</td>
+                            <td>$19.50</td>
+                            <td>
+                                <label for ="portion"></label>
+                                <input type="number" name="portion" id="portion" min="1" max="14">
+                            </td>
+                                
+                             </tr>
+                             <tr>
+                                <td>Garlic Naan </td>
+                                <td>2</td>
+                                <td>A leavened, fluffy, homemade flatbread, brushed with melted garlic butter.</td>
+                                <td>$3.00</td>
+                                <td>
+                                    <label for ="portion"></label>
+                                    <input type="number" name="portion" id="portion" min="1" max="14">
+                                </td>
+                              </tr>
+                               <tr>
+                                <td>Plain Naan</td>
+                                <td>2</td>
+                                <td>A leavened, oven-baked flatbread,</td>
+                                <td>$2.00</td>
+                                <td>
+                                    <label for ="portion"></label>
+                                    <input type="number" name="portion" id="portion" min="1" max="14">
+                                </td>
+                                <tr>
+                                <td>Tandoori tikka</td>
+                                <td>2</td>
+                                <td>Chicken tikka, a delicious Indian appetizer</td>
+                                <td>$15.50</td>
+                                <td>
+                                    <label for ="portion"></label>
+                                    <input type="number" name="portion" id="portion" min="1" max="14">
+                                </td>
+                                <tr>
+                                    <td>Rasmalaai</td>
+                                    <td> 32 oz</td>
+                                    <td>Cottage cheese balls dunked in flavored silky sweet milk</td>
+                                    <td>$4.50</td>
+                                    <td>
+                                        <label for ="portion"></label>
+                                         <input type="number" name="portion" id="portion" min="1" max="14">
+                                    </td> 
+                                </tr>                              
+                             </tr>
+            </table>
+                   
+       
+        <!--Adds second division of the main body on right ride-->  
+        <div class="order">
+            <!--Adds a logo image-->   
+            <div id="logo">
+            <a href="https://express.adobe.com/express-apps/logo-maker/preview">
+            <img src="C:\Users\anura\Documents\cisw327\public_html\lotus.jpeg" width="300px" height="300px"></a> </div>
+           
+            <form method="post" action="http://webdevbasics.net/scripts/demo.php">
+                <a href="#" class="myButton">Order Now</a> </form><br><br>
+        </div><br><br><br><br>
+</div>
+</main>
+    <div id="footer">
+        <br><hr>
+    
+         <!--Adds address to footer-->
+        <h4>Address</h4>
+       1111 Lotus Avenue,<br>
+        Sacramento, CA-95622<br>
+        Hours : 10.00AM-10.00PM<br><hr>
+    </div>
+    
+
+   
+</div>
+
+
+</footer>
+</html>
+
+
+

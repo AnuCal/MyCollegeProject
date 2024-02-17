@@ -1,0 +1,45 @@
+/*-- 
+Name: AnuradhaS 
+StudentId: W0949779
+Date: 11/06/2023
+*/
+
+#wrapper {background-color: #F5F5F5;
+        min-width: 80%;
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 6em;
+        padding-right:4em;
+        padding-bottom: 4em;
+        padding-top: 4em;
+        box-shadow: 5px 10px 10px #3f3e3e;}
+
+h1 {background-color:rgb(132, 105, 154); color:#FFFFFF;
+    font-family: Georgia, serif;
+    line-height:300%;
+    background-repeat: no-repeat;
+    padding-left:10em ;
+    height :80px;
+    margin-bottom:40px;}
+
+#border {background-image: url(medowbox.JPG); 
+         width: 1170;
+         height: 200px;
+         background-position:bottom;
+         opacity:calc(.7);
+         max-width: 120%;   }
+ 
+h2 {font-family: 'Times New Roman', Times, serif;
+    padding-top: 2em;}
+p {font-size: large;}
+
+body {background-image: url(medow.JPG);
+      background-size: 100%;}
+  
+
+
+
+
+         
+        
